@@ -3,8 +3,8 @@
 The solution was built for a dev-challenge. The app should help anyone select a country and see the data on how the host and the neighbouring countries fare, when it comes to Women in Parliament.
 
 # Pre-requisites
-# - [Docker](https://docs.docker.com/install/)
-# - [Docker Compose](https://docs.docker.com/compose/install/)
+# [Docker](https://docs.docker.com/install/)
+# [Docker Compose](https://docs.docker.com/compose/install/)
 - Python 3.x
 
 # Directory Layout
