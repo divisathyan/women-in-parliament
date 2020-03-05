@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <!--<link rel="stylesheet" href="main.css"> -->
+        <style>
+            .logo {
+                display: block;
+                text-indent: -9999px;
+                width: 100px;
+                height: 82px;
+                background: url(lmap.svg);
+                background-size: 100px 82px;
+            }
+            .main-header {
+                background: url(lmap.svg) no-repeat top left;
+                background-size: contain;
+            }
+            .no-svg .main-header {
+                background-image: url(lmap.png);
+            }
+            h2 {
+                font-size: 0.75em;
+                margin: -5px 0 0;
+                font-weight: normal;
+            }
+
+            h4 {
+                margin: 0 0 1em 0;
+            }
+
+            .social-icon {
+                width: 20px;
+                height: 20px;
+                margin: 0 5px;
+            }
+
+        </style>
+        <title>Seats held by Women in National parliaments</title>
+    </head>
+    <body>
+    <form action="/" method="GET">
+    <table border="0">
+        <tr><td><a href="/">Home</a></td></tr>
+    </table>
+     <h4>{{ message }}</h4>
+     <br>
+     {{ img }}
+    <img src="/Users/divya.arun/Documents/Dev/Interactive-Choropleth-Map-Using-Python/templates/lmap.svg" height="50" width="100" />
+    <div class="logo">
+        <!--<object data="/Users/divya.arun/Documents/Dev/Interactive-Choropleth-Map-Using-Python/templates/lmap.svg" type="image/svg+xml"></object> -->
+    </div>
+    </form>
+    </body>
+</html>

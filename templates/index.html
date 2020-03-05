@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <title>Seats held by Women in National parliaments</title>
+        <link rel="stylesheet" href="css/main.css">
+        <style>
+            body {
+                background-color: #fff;
+                color: #999;
+                font-family: 'Open Sans', sans-serif;
+            }
+            a {
+                text-decoration: none;
+            }
+
+        </style>
+    </head>
+    <body>
+        <form action="/rendermap" method="POST">
+            <h4>Data on Seats held by Women in National parliaments</h4>
+            <p>
+                Datasource: 2019 results from 
+                <a href="https://data.worldbank.org/indicator/SG.GEN.PARL.ZS">World bank data</a>
+            </p>
+        <table border="0">
+            <tr><td><h4>Enter valid ISO country code (Ex:- gb)</h4></td></tr>
+            <tr><td></td></tr>
+            <tr><td><input id="countryCode" name="countryCode" type="text" value=""/></td></tr>
+            <tr><td><input type="submit" value="RenderMap" /></td></tr>
+    </table>
+   <!-- <br>
+    <img src="{{ img }}" alt="women leadership %" height="50" width="100" /> -->
+</form>
+    </body>
+</html>

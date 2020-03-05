@@ -1,0 +1,52 @@
+/* site body */
+body {
+  background-color: #fff;
+  color: #999;
+  font-family: 'Open Sans', sans-serif;
+}
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+.logo {
+    display: block;
+    text-indent: -9999px;
+    width: 100px;
+    height: 82px;
+    background: url(lmap.svg);
+    background-size: 100px 82px;
+}
+.main-header {
+    background: url(lmap.svg) no-repeat top left;
+    background-size: contain;
+}
+.no-svg .main-header {
+    background-image: url(lmap.png);
+}
+
+h1 {
+  font-family: 'Changa One', sans-serif;
+  margin: 15px 0;
+  font-size: 1.75em;
+  font-weight: normal;
+  line-height: 0.8em;
+}
+
+h2 {
+  font-size: 0.75em;
+  margin: -5px 0 0;
+  font-weight: normal;
+}
+
+h3 {
+  margin: 0 0 1em 0;
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+}
